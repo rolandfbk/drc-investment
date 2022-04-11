@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.top-intro{
+  padding-top: 15px;
+}
+
+.set {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header-intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  justify-content: start;
+}
+
+.img-flag {
+  text-align: right;
+}
+
+.img-flag img {
+  width: 40%;
+}
+
+#icon-nav {
+  font-size: 36px;
+  color: #272a31;
+}
+
+.intro {
+  display: flex;
+  background-image: url(../img/mining2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 25%;
+}
+
+.article-intro {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+}
+
+.tagline {
+  font-size: 0.9em;
+  font-family: 'Cocogoose', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #ec5242;
+}
+
+.title-intro {
+  font-size: 2em;
+  margin-block-start: auto;
+  margin-block-end: auto;
+  font-family: 'Cocogoose', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #ec5242;
+}
+
+.description-intro {
+  background-color: rgb(255, 255, 255, 0.67);
+  padding: 20px;
+}
+
+.description-intro p {
+  color: #272a31;
+  margin-block-start: auto;
+  margin-block-end: auto;
+  font-size: 1.3em;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.date-intro {
+  color: #272a31;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: auto;
+  font-family: 'Cocogoose', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.address-intro {
+  margin-block-start: auto;
+  margin-block-end: auto;
+  color: #272a31;
+  font-size: 1.3em;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.program {
+  background-color: #272a31;
+  padding-top: 10%;
+}
+
+.title-program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+.title-program h3 {
+  margin-block-start: auto;
+  margin-block-end: 1em;
+  font-size: 1.3em;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #fff;
+}
+
+.underline-title-program {
+  border: 1px solid #ec5242;
+  width: 50px;
+}
+
+.subject-program {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-program {
+  display: flex;
+}
