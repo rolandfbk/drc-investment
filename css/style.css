@@ -37,7 +37,7 @@ body {
 
 .intro {
   display: flex;
-  background-image: url(../img/mining2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.5)), url(../img/mining2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 25%;
@@ -70,6 +70,7 @@ body {
 .description-intro {
   background-color: rgb(255, 255, 255, 0.67);
   padding: 20px;
+  margin-top: 5%;
 }
 
 .description-intro p {
@@ -105,6 +106,7 @@ body {
 .program {
   background-color: #272a31;
   padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .title-program {
@@ -135,5 +137,94 @@ body {
 }
 
 .main-program {
+  display: grid;
+  grid-template-columns: 10% 30% 60%;
+  background-color: rgb(255, 255, 255, 0.10);
+  padding: 10px;
+}
+
+.main-program i {
+  grid-column: 1;
+  font-size: 35px;
+  color: #fff;
+  align-self: center;
+}
+
+.main-program h4 {
+  grid-column: 2;
+  font-size: 15px;
+  margin-block-start: auto;
+  margin-block-end: auto;
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  align-self: center;
+}
+
+.main-program p {
+  grid-column: 3;
+  font-size: 15px;
+  margin-block-start: auto;
+  margin-block-end: auto;
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  align-self: center;
+}
+
+.clearfix {
+  margin: 10px;
+}
+
+.join-program {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.join-program-button {
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-size: 1.1em;
+  background-color: #ec5242;
+  color: #fff;
+  border: none;
+}
+
+.speaker {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.title-speaker {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+.title-speaker h3 {
+  margin-block-start: auto;
+  margin-block-end: 1em;
+  font-size: 1.3em;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #272a31;
+}
+
+.subject-speaker {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-speaker {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.picture-speaker {
+  grid-column: 1;
+  background-image: url(../img/checker.png);
+  background-repeat: no-repeat;
 }
