@@ -84,7 +84,7 @@ body {
 }
 
 .date-intro {
-  color: #272a31;
+  color: #d3d3d3;
   font-size: 1.5em;
   margin-block-start: 0.83em;
   margin-block-end: auto;
@@ -96,7 +96,7 @@ body {
 .address-intro {
   margin-block-start: auto;
   margin-block-end: auto;
-  color: #272a31;
+  color: #d3d3d3;
   font-size: 1.3em;
   font-family: 'Lato', sans-serif;
   font-style: normal;
@@ -145,7 +145,7 @@ body {
 
 .main-program i {
   grid-column: 1;
-  font-size: 35px;
+  font-size: 20px;
   color: #fff;
   align-self: center;
 }
@@ -225,6 +225,77 @@ body {
 
 .picture-speaker {
   grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 10px;
   background-image: url(../img/checker.png);
   background-repeat: no-repeat;
+  background-size: 30%;
+}
+
+.picture-speaker img {
+  width: 100%;
+}
+
+.description-speaker {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.description-speaker h4 {
+  color: #272a31;
+  margin-block-start: inherit;
+  margin-block-end: inherit;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.description-speaker span {
+  color: #ec5242;
+  font-size: 0.8em;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.description-speaker div {
+  border: 1px solid #d3d3d3;
+  width: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.description-speaker p {
+  color: #272a31;
+  font-size: 0.9em;
+  margin-block-start: inherit;
+  margin-block-end: inherit;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.more-speaker-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  color: #272a31;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.more-speaker-button img {
+  padding-left: 10px;
 }
