@@ -32,12 +32,12 @@ body {
 
 #icon-nav {
   font-size: 36px;
-  color: #272a31;
+  color: #d3d3d3;
 }
 
 .intro {
   display: flex;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.5)), url(../img/mining2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)), url(../img/mining2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 25%;
@@ -104,6 +104,8 @@ body {
 }
 
 .program {
+  display: flex;
+  flex-direction: column;
   background-color: #272a31;
   padding-top: 10%;
   padding-bottom: 10%;
@@ -141,6 +143,7 @@ body {
   grid-template-columns: 10% 30% 60%;
   background-color: rgb(255, 255, 255, 0.10);
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .main-program i {
@@ -192,6 +195,8 @@ body {
 }
 
 .speaker {
+  display: flex;
+  flex-direction: column;
   padding-top: 10%;
   padding-bottom: 10%;
 }
@@ -221,6 +226,7 @@ body {
 .main-speaker {
   display: grid;
   grid-template-columns: 30% 70%;
+  margin-bottom: 20px;
 }
 
 .picture-speaker {
@@ -298,4 +304,274 @@ body {
 
 .more-speaker-button img {
   padding-left: 10px;
+}
+
+.intro-about {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)), url(../img/mining-about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 25%;
+}
+
+.article-intro-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.title-intro-about {
+  font-size: 2em;
+  text-align: center;
+  margin-block-start: auto;
+  margin-block-end: auto;
+  font-family: 'Cocogoose', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #ec5242;
+}
+
+.description-intro-about {
+  background-color: rgb(255, 255, 255, 0.67);
+  padding: 20px;
+  margin-top: 5%;
+}
+
+.description-intro-about p {
+  color: #272a31;
+  margin-block-start: auto;
+  margin-block-end: auto;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.address-intro-about {
+  margin-block-start: auto;
+  margin-block-end: auto;
+  color: #d3d3d3;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.program-about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.title-program-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+.title-program-about h3 {
+  margin-block-start: auto;
+  margin-block-end: 1em;
+  font-size: 1.3em;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  color: #272a31;
+}
+
+.description-program-about h4 {
+  margin-block-start: auto;
+  margin-block-end: 1em;
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: #272a31;
+}
+
+.logo-program-about {
+  text-align: center;
+  padding: 25px;
+  padding-top: 37px;
+  border: 1px solid #d3d3d3;
+  margin-top: 15px;
+}
+
+.summit-about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.title-summit-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+.title-summit-about h3 {
+  margin-block-start: auto;
+  margin-block-end: 1em;
+  font-size: 1.3em;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #272a31;
+}
+
+.description-summit-about h4 {
+  margin-block-start: auto;
+  margin-block-end: 1em;
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: #272a31;
+}
+
+.past-summit-about-first {
+  background-image: linear-gradient(rgba(69, 141, 215, 0.80), rgba(69, 141, 215, 0.80)), url(../img/past-first.jpg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.past-summit-about-first h4 {
+  margin-block-start: auto;
+  margin-block-end: 1em;
+  font-size: 1.8em;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  color: #fff;
+}
+
+.past-summit-about-first p {
+  margin-block-start: auto;
+  margin-block-end: auto;
+  font-size: 1.3em;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: #fff;
+}
+
+.past-summit-about-second {
+  background-image: linear-gradient(rgba(69, 141, 215, 0.80), rgba(69, 141, 215, 0.80)), url(../img/past-second.jpg);
+  background-repeat: no-repeat;
+  background-size: 180%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.past-summit-about-second h4 {
+  margin-block-start: auto;
+  margin-block-end: 1em;
+  font-size: 1.8em;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  color: #fff;
+}
+
+.past-summit-about-second p {
+  margin-block-start: auto;
+  margin-block-end: auto;
+  font-size: 1.3em;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: #fff;
+}
+
+.gap {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.partner-about {
+  display: flex;
+  flex-direction: column;
+  background-color: #272a31;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.title-partner-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+.title-partner-about h3 {
+  margin-block-start: auto;
+  margin-block-end: 1em;
+  font-size: 1.3em;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #fff;
+}
+
+.list-partner-about {
+  text-align: center;
+}
+
+.list-partner-about img {
+  width: 100%;
+}
+
+.footer-about {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.first-footer-about {
+  grid-column: 1;
+  align-self: center;
+}
+
+.second-footer-about {
+  grid-column: 2;
+  align-self: center;
+}
+
+.second-footer-about h5 {
+  margin-block-start: auto;
+  margin-block-end: 1em;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #272a31;
+}
+
+.second-footer-about a {
+  text-decoration: none;
+  color: #ec5242;
 }
