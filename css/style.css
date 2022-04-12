@@ -3,6 +3,7 @@ body {
   font-family: 'Cocogoose', sans-serif;
 }
 
+/*index page css*/
 .top-intro{
   padding-top: 15px;
 }
@@ -306,6 +307,7 @@ body {
   padding-left: 10px;
 }
 
+/*About page css*/
 .intro-about {
   display: flex;
   background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)), url(../img/mining-about.jpg);
@@ -574,4 +576,58 @@ body {
 .second-footer-about a {
   text-decoration: none;
   color: #ec5242;
+}
+
+/*menu css*/
+/* .wrapper-menu {
+  display: none;
+  flex-direction: column;
+} */
+
+.wrapper-menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(../img/rdc-flag.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.wrapper-menu .header {
+  height: 150px;
+  padding-top: 15px;
+}
+
+.menu {
+  height: 62vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-menu {
+  flex: 1;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-inline-start: inherit;
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.3em;
+  line-height: 300%;
+  text-align: center;
+  color: #d3d3d3;
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+}
+
+.menu-list a {
+  text-decoration: none;
 }
