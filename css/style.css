@@ -36,6 +36,11 @@ body {
   color: #d3d3d3;
 }
 
+#icon-nav-menu {
+  font-size: 36px;
+  color: #d3d3d3;
+}
+
 .intro {
   display: flex;
   background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)), url(../img/mining2.jpg);
@@ -578,17 +583,14 @@ body {
   color: #ec5242;
 }
 
-/*menu css*/
-/* .wrapper-menu {
-  display: none;
-  flex-direction: column;
-} */
-
 .wrapper-menu {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(../img/rdc-flag.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-delay: 0.1s;
 }
 
 .wrapper-menu .header {
@@ -652,6 +654,28 @@ hr {
   border: 1px solid #d3d3d3;
 }
 
+#wrapper-menu {
+  display: none;
+}
+
+.page-loader {
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  border: 5px solid #d3d3d3;
+  border-radius: 50%;
+  border-top: 5px solid #ec5242;
+  border-bottom: 5px solid #272a31;
+  width: 20px;
+  height: 20px;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 @media (min-width: 768px) {
   /*index page css*/
   .head {
@@ -669,6 +693,13 @@ hr {
   .social-icon {
     color: #d3d3d3;
     font-size: 20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+  }
+
+  .social-icon:hover {
+    color: #ec5242;
   }
 
   .social a {
@@ -690,6 +721,7 @@ hr {
     display: grid;
     grid-template-columns: 20% 60% 20%;
     padding-top: 15px;
+    padding-bottom: 5px;
   }
 
   .nav-item1 {
@@ -714,6 +746,9 @@ hr {
     font-size: 1em;
     line-height: 300%;
     color: #272a31;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
   }
 
   .nav-item2 a:hover {
@@ -739,6 +774,9 @@ hr {
     color: #272a31;
     margin-block-start: auto;
     margin-block-end: auto;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
   }
 
   .nav-item3 a:hover {
@@ -782,6 +820,11 @@ hr {
     color: #d3d3d3;
   }
 
+  #icon-nav-menu {
+    font-size: 36px;
+    color: #d3d3d3;
+  }
+
   .intro {
     display: flex;
     background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)), url(../img/mining2.jpg);
@@ -801,7 +844,7 @@ hr {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 300;
-    color: #d55245;
+    color: #ec5242;
   }
 
   .title-intro {
@@ -811,7 +854,7 @@ hr {
     font-family: 'Cocogoose', sans-serif;
     font-style: normal;
     font-weight: 300;
-    color: #d55245;
+    color: #ec5242;
   }
 
   .description-intro {
@@ -1104,7 +1147,7 @@ hr {
     font-family: 'Cocogoose', sans-serif;
     font-style: normal;
     font-weight: 300;
-    color: #d55245;
+    color: #ec5242;
   }
 
   .description-intro-about {
@@ -1380,5 +1423,23 @@ hr {
   .second-footer-about a {
     text-decoration: none;
     color: #ec5242;
+  }
+
+  .page-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px solid #d3d3d3;
+    border-radius: 50%;
+    border-top: 5px solid #ec5242;
+    border-bottom: 5px solid #272a31;
+    width: 20px;
+    height: 20px;
+    animation: rotate 2s linear infinite;
+  }
+
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
   }
 }
