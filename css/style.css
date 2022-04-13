@@ -150,7 +150,7 @@ body {
 .main-program i {
   grid-column: 1;
   font-size: 20px;
-  color: #fff;
+  color: #d3d3d3;
   align-self: center;
 }
 
@@ -616,7 +616,7 @@ body {
   padding-inline-start: inherit;
 }
 
-h4 {
+.menu-list h4 {
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -630,4 +630,755 @@ h4 {
 
 .menu-list a {
   text-decoration: none;
+}
+
+.head {
+  display: none;
+}
+
+.top-nav {
+  display: none;
+}
+
+.see-program {
+  display: none;
+}
+
+.page-bottom {
+  display: none;
+}
+
+hr {
+  border: 1px solid #d3d3d3;
+}
+
+@media (min-width: 768px) {
+  /*index page css*/
+  .head {
+    display: block;
+    background-color: #272a31;
+  }
+
+  .social {
+    display: flex;
+    justify-content: end;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .social-icon {
+    color: #d3d3d3;
+    font-size: 20px;
+  }
+
+  .social a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    margin-left: 15px;
+  }
+
+  .social a span {
+    font-size: 15px;
+  }
+
+  .top-nav {
+    display: block;
+  }
+
+  .top-nav nav {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding-top: 15px;
+  }
+
+  .nav-item1 {
+    grid-column: 1;
+  }
+
+  .nav-item1 img {
+    width: 40%;
+  }
+
+  .nav-item2 {
+    grid-column: 2;
+    display: flex;
+    justify-content: end
+  }
+
+  .nav-item2 a {
+    padding-left: 10%;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 300%;
+    color: #272a31;
+  }
+
+  .nav-item2 a:hover {
+    color: #ec5242;
+  }
+
+  .nav-item3 {
+    grid-column: 3;
+    text-align: right;
+  }
+
+  .nav-item3 a {
+    border: 3px solid #ec5242;
+    width: fit-content;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 8px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 300%;
+    color: #272a31;
+    margin-block-start: auto;
+    margin-block-end: auto;
+  }
+
+  .nav-item3 a:hover {
+    border: 3px solid #272a31;
+    color: #ec5242;
+  }
+
+  .toogle-menu {
+    display: none;
+  }
+
+  .top-intro{
+    padding-top: 15px;
+  }
+
+  .set {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .header-intro {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: start;
+  }
+
+  .img-flag {
+    text-align: right;
+  }
+
+  .img-flag img {
+    width: 40%;
+  }
+
+  #icon-nav {
+    font-size: 36px;
+    color: #d3d3d3;
+  }
+
+  .intro {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)), url(../img/mining2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25%;
+  }
+
+  .article-intro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+  }
+
+  .tagline {
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #d55245;
+  }
+
+  .title-intro {
+    font-size: 3.5em;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    font-family: 'Cocogoose', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #d55245;
+  }
+
+  .description-intro {
+    width: 60%;
+    background-color: rgb(255, 255, 255, 0.67);
+    padding: 20px;
+    margin-top: 5%;
+  }
+
+  .description-intro p {
+    color: #272a31;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+  }
+
+  .date-intro {
+    color: #d3d3d3;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: auto;
+    font-family: 'Cocogoose', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+  }
+
+  .address-intro {
+    margin-block-start: auto;
+    margin-block-end: auto;
+    color: #d3d3d3;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .program {
+    display: flex;
+    flex-direction: column;
+    background-color: #272a31;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .title-program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+  }
+
+  .title-program h3 {
+    margin-block-start: auto;
+    margin-block-end: 1em;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .underline-title-program {
+    border: 1px solid #ec5242;
+    width: 50px;
+  }
+
+  .subject-program {
+    display: flex;
+    flex-direction: initial;
+  }
+
+  .main-program {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid transparent;
+    background-color: rgb(255, 255, 255, 0.10);
+    padding: 10px;
+    margin: 1px;
+  }
+
+  .main-program:hover {
+    border: 1px solid #d3d3d3;
+  }
+
+  .main-program i {
+    grid-column: 1;
+    font-size: 40px;
+    color: #d3d3d3;
+    align-self: center;
+    margin-bottom: 15px;
+  }
+
+  .main-program h4 {
+    grid-column: 2;
+    font-size: 15px;
+    margin-block-start: 1px;
+    margin-block-end: 15px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    align-self: center;
+  }
+
+  .main-program p {
+    grid-column: 3;
+    font-size: 15px;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+    color: #d3d3d3;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    align-self: center;
+  }
+
+  .clearfix {
+    margin: 10px;
+  }
+
+  .join-program {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .see-program {
+    display: block;
+    color: #d3d3d3;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 1em;
+  }
+
+  .join-program-button {
+    display: none;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 1.1em;
+    background-color: #ec5242;
+    color: #fff;
+    border: none;
+  }
+
+  .speaker {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .title-speaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+  }
+
+  .title-speaker h3 {
+    margin-block-start: auto;
+    margin-block-end: 1em;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #272a31;
+  }
+
+  .subject-speaker {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+  }
+
+  .main-speaker {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 10%;
+  }
+
+  .picture-speaker {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-image: url(../img/checker.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+  }
+
+  .picture-speaker img {
+    width: 100%;
+  }
+
+  .description-speaker {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 15px;
+  }
+
+  .description-speaker h4 {
+    color: #272a31;
+    margin-block-start: inherit;
+    margin-block-end: inherit;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .description-speaker span {
+    color: #ec5242;
+    font-size: 0.8em;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  .description-speaker div {
+    border: 1px solid #d3d3d3;
+    width: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .description-speaker p {
+    color: #272a31;
+    font-size: 0.9em;
+    margin-block-start: inherit;
+    margin-block-end: inherit;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+  }
+
+  .more-speaker {
+    display: none;
+  }
+
+  .more-speaker-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: #272a31;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .more-speaker-button img {
+    padding-left: 10px;
+  }
+
+  .page-bottom {
+    display: block;
+  }
+
+  /*About page css*/
+  .intro-about {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)), url(../img/mining-about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%;
+  }
+
+  .article-intro-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+  }
+
+  .title-intro-about {
+    font-size: 3.5em;
+    text-align: center;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    font-family: 'Cocogoose', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #d55245;
+  }
+
+  .description-intro-about {
+    background-color: rgb(255, 255, 255, 0.67);
+    padding: 20px;
+    margin-top: 5%;
+    width: 80%;
+  }
+
+  .description-intro-about p {
+    color: #272a31;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+  }
+
+  .address-intro-about {
+    margin-block-start: auto;
+    margin-block-end: auto;
+    color: #d3d3d3;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+
+  .program-about {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .title-program-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+  }
+
+  .title-program-about h3 {
+    margin-block-start: auto;
+    margin-block-end: 1em;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    color: #272a31;
+  }
+
+  .description-program-about {
+    display: flex;
+    justify-content: center;
+  }
+
+  .description-program-about h4 {
+    margin-block-start: auto;
+    margin-block-end: 1em;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    color: #272a31;
+    width: 80%;
+  }
+
+  .logo-program-about {
+    text-align: center;
+    padding: 25px;
+    padding-top: 37px;
+    border: 1px solid #d3d3d3;
+    margin-top: 15px;
+    width: 30%;
+    align-self: center;
+  }
+
+  .summit-about {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .title-summit-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+  }
+
+  .title-summit-about h3 {
+    margin-block-start: auto;
+    margin-block-end: 1em;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #272a31;
+  }
+
+  .description-summit-about h4 {
+    margin-block-start: auto;
+    margin-block-end: 1em;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    color: #272a31;
+  }
+
+  .past-summit-about {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .past-summit-about-first {
+    background-image: linear-gradient(rgba(69, 141, 215, 0.80), rgba(69, 141, 215, 0.80)), url(../img/past-first.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 40%;
+  }
+
+  .past-summit-about-first h4 {
+    margin-block-start: auto;
+    margin-block-end: 1em;
+    font-size: 1.8em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .past-summit-about-first p {
+    margin-block-start: auto;
+    margin-block-end: auto;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .past-summit-about-second {
+    background-image: linear-gradient(rgba(69, 141, 215, 0.80), rgba(69, 141, 215, 0.80)), url(../img/past-second.jpg);
+    background-repeat: no-repeat;
+    background-size: 180%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 40%;
+  }
+
+  .past-summit-about-second h4 {
+    margin-block-start: auto;
+    margin-block-end: 1em;
+    font-size: 1.8em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .past-summit-about-second p {
+    margin-block-start: auto;
+    margin-block-end: auto;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .gap {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .partner-about {
+    display: flex;
+    flex-direction: column;
+    background-color: #272a31;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .title-partner-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+  }
+
+  .title-partner-about h3 {
+    margin-block-start: auto;
+    margin-block-end: 1em;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .list-partner-about {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .list-partner-about img {
+    width: 32%;
+  }
+
+  .abt-footer {
+    background-color: #272a31;
+    padding-top: 15px;
+    padding-bottom: 13px;
+  }
+
+  .footer-about {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .first-footer-about {
+    grid-column: 1;
+    align-self: center;
+  }
+
+  .second-footer-about {
+    grid-column: 2;
+    align-self: center;
+  }
+
+  .second-footer-about h5 {
+    margin-block-start: auto;
+    margin-block-end: 1em;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #272a31;
+  }
+
+  .copyright {
+    color: #d3d3d3 !important;
+  }
+
+  .second-footer-about a {
+    text-decoration: none;
+    color: #ec5242;
+  }
 }
