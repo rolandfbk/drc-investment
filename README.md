@@ -25,11 +25,6 @@ This is a website that presents some of the key speakers and main programs of th
 [Click to view my presentation](https://www.loom.com/share/88ae7937911d465fb2c64a01ce3037a1)
 
 
-## Live Demo
-
-[Live Demo Link](https://rolandfbk.github.io/portfolio/)
-
-
 ## Getting Started
 
 At this stage of the development, you can just download it into your computer, unzip it and run it on your browser.
