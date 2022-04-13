@@ -46,12 +46,12 @@ const speaker = [
 ];
 
 function popupateSpeakers(speakerObject) {
-  let div = [];
+  const div = [];
   div.className = 'main-speaker';
 
-  let template = [];
-  if(screen.width < 768) {
-    for(let i = 0; i < 2; i += 1) {
+  const template = [];
+  if (window.screen.width < 768) {
+    for (let i = 0; i < 2; i += 1) {
       div[i] = document.createElement('div');
       div[i].className = 'main-speaker';
       template[i] = `
@@ -72,13 +72,13 @@ function popupateSpeakers(speakerObject) {
       speakerSection.appendChild(div[i]);
     }
 
-    let loadMore = document.createElement('div');;
+    const loadMore = document.createElement('div');
     loadMore.className = 'more-speaker';
     loadMore.id = 'more-speaker';
-    loadMore.innerHTML = `<button class="more-speaker-button">MORE  <img src="img/icon_down.svg" alt="Show more speakers"></button>`;
+    loadMore.innerHTML = '<button class="more-speaker-button">MORE  <img src="img/icon_down.svg" alt="Show more speakers"></button>';
     speakerSection.appendChild(loadMore);
   } else {
-    for(let i = 0; i < speakerObject.length; i += 1) {
+    for (let i = 0; i < speakerObject.length; i += 1) {
       div[i] = document.createElement('div');
       div[i].className = 'main-speaker';
       template[i] = `
@@ -108,11 +108,11 @@ const loadMoreButton = document.querySelector('.more-speaker-button');
 function loadMoreSpeaker(speakerObject) {
   document.getElementById('more-speaker').style.display = 'none';
 
-  let div = [];
+  const div = [];
   div.className = 'main-speaker';
 
-  let template = [];
-  for(let i = 2; i < speakerObject.length; i += 1) {
+  const template = [];
+  for (let i = 2; i < speakerObject.length; i += 1) {
     div[i] = document.createElement('div');
     div[i].className = 'main-speaker';
     template[i] = `
