@@ -3,9 +3,11 @@
 RDC Investment Summit is a capstone project design by a Microverse student as part of an exercise. It gives informations about the upcoming investment summit that will take place in Democratic Republic of Congo.
 
 
-## Credit
+## Credit to the Authors
 
-As part of the capstone project exercise, The content of this projects has been taken from [RDC Investment Summit](https://www.drcinvestsummit.com/) official website. Kindly visit [this website](https://www.drcinvestsummit.com/) if you are interested in investing in Democratic Republic of congo
+- **Cindy Shin**: I have used the template created by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) design the project
+
+- **RDC Investment Summit**: As part of the capstone project exercise, The content of this projects has been taken from [RDC Investment Summit](https://www.drcinvestsummit.com/) official website. Kindly visit [this website](https://www.drcinvestsummit.com/) if you are interested in investing in Democratic Republic of congo
 
 
 ## Description
