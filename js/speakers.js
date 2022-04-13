@@ -132,6 +132,25 @@ function loadMoreSpeaker(speakerObject) {
     div[i].innerHTML = template[i];
     speakerSection.appendChild(div[i]);
   }
+
+  const showLess = document.createElement('div');
+  showLess.className = 'less-speaker';
+  showLess.id = 'less-speaker';
+  showLess.innerHTML = '<button class="less-speaker-button">LESS  <img src="img/icon_up.png" alt="Show less speakers"></button>';
+  speakerSection.appendChild(showLess);
+
+  const loadLessButton = document.querySelector('.less-speaker-button');
+
+  loadLessButton.addEventListener('click', () => {
+    const count = speakerSection.children.length - 3;
+    let x = 0;
+    while (x < count) {
+      speakerSection.removeChild(speakerSection.children[speakerSection.children.length - 1]);
+      x += 1;
+    }
+
+    document.getElementById('more-speaker').style.display = 'block';
+  });
 }
 
 loadMoreButton.addEventListener('click', () => {

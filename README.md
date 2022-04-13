@@ -22,7 +22,12 @@ This is a website that presents some of the key speakers and main programs of th
 
 ## Recorded Video Presentation
 
-[Click to view my presentation](https://www.loom.com/share/88ae7937911d465fb2c64a01ce3037a1)
+[Click to view my presentation](https://www.loom.com/share/745d076bf33e48dbbd6c5bc2775dbc9d)
+
+
+## Live Demo
+
+[Live Demo Link](https://rolandfbk.github.io/drc-investment/)
 
 
 ## Getting Started
